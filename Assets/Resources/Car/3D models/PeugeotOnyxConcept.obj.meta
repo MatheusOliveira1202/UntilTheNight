@@ -1,0 +1,314 @@
+fileFormatVersion: 2
+guid: 954d2ca22854b5b4b84e2cbcc14db858
+timeCreated: 1510921881
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: default
+    100002: default_MeshPart0
+    100004: default_MeshPart1
+    100006: default_MeshPart10
+    100008: default_MeshPart11
+    100010: default_MeshPart12
+    100012: default_MeshPart13
+    100014: default_MeshPart14
+    100016: default_MeshPart15
+    100018: default_MeshPart16
+    100020: default_MeshPart17
+    100022: default_MeshPart18
+    100024: default_MeshPart19
+    100026: default_MeshPart2
+    100028: default_MeshPart20
+    100030: default_MeshPart3
+    100032: default_MeshPart4
+    100034: default_MeshPart5
+    100036: default_MeshPart6
+    100038: default_MeshPart7
+    100040: default_MeshPart8
+    100042: default_MeshPart9
+    100044: //RootNode
+    400000: default
+    400002: default_MeshPart0
+    400004: default_MeshPart1
+    400006: default_MeshPart10
+    400008: default_MeshPart11
+    400010: default_MeshPart12
+    400012: default_MeshPart13
+    400014: default_MeshPart14
+    400016: default_MeshPart15
+    400018: default_MeshPart16
+    400020: default_MeshPart17
+    400022: default_MeshPart18
+    400024: default_MeshPart19
+    400026: default_MeshPart2
+    400028: default_MeshPart20
+    400030: default_MeshPart3
+    400032: default_MeshPart4
+    400034: default_MeshPart5
+    400036: default_MeshPart6
+    400038: default_MeshPart7
+    400040: default_MeshPart8
+    400042: default_MeshPart9
+    400044: //RootNode
+    2300000: default_MeshPart0
+    2300002: default_MeshPart1
+    2300004: default_MeshPart10
+    2300006: default_MeshPart11
+    2300008: default_MeshPart12
+    2300010: default_MeshPart13
+    2300012: default_MeshPart14
+    2300014: default_MeshPart15
+    2300016: default_MeshPart16
+    2300018: default_MeshPart17
+    2300020: default_MeshPart18
+    2300022: default_MeshPart19
+    2300024: default_MeshPart2
+    2300026: default_MeshPart20
+    2300028: default_MeshPart3
+    2300030: default_MeshPart4
+    2300032: default_MeshPart5
+    2300034: default_MeshPart6
+    2300036: default_MeshPart7
+    2300038: default_MeshPart8
+    2300040: default_MeshPart9
+    3300000: default_MeshPart0
+    3300002: default_MeshPart1
+    3300004: default_MeshPart10
+    3300006: default_MeshPart11
+    3300008: default_MeshPart12
+    3300010: default_MeshPart13
+    3300012: default_MeshPart14
+    3300014: default_MeshPart15
+    3300016: default_MeshPart16
+    3300018: default_MeshPart17
+    3300020: default_MeshPart18
+    3300022: default_MeshPart19
+    3300024: default_MeshPart2
+    3300026: default_MeshPart20
+    3300028: default_MeshPart3
+    3300030: default_MeshPart4
+    3300032: default_MeshPart5
+    3300034: default_MeshPart6
+    3300036: default_MeshPart7
+    3300038: default_MeshPart8
+    3300040: default_MeshPart9
+    4300000: default_MeshPart0
+    4300002: default_MeshPart1
+    4300004: default_MeshPart2
+    4300006: default_MeshPart3
+    4300008: default_MeshPart4
+    4300010: default_MeshPart5
+    4300012: default_MeshPart6
+    4300014: default_MeshPart7
+    4300016: default_MeshPart8
+    4300018: default_MeshPart9
+    4300020: default_MeshPart10
+    4300022: default_MeshPart11
+    4300024: default_MeshPart12
+    4300026: default_MeshPart13
+    4300028: default_MeshPart14
+    4300030: default_MeshPart15
+    4300032: default_MeshPart16
+    4300034: default_MeshPart17
+    4300036: default_MeshPart18
+    4300038: default_MeshPart19
+    4300040: default_MeshPart20
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: cbbca04038c0483459f7f38e3fea7770, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body(Black)
+    second: {fileID: 2100000, guid: c84da80f55931504eb27f2e43bed854b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body(Gold)
+    second: {fileID: 2100000, guid: 7343031dbedfcd9459bbd35e1d0b8d6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BottomSpoiler
+    second: {fileID: 2100000, guid: 59ba3afe7e38f454ba81e347b06d0102, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrakeDisks
+    second: {fileID: 2100000, guid: c160ddfdcbcf3b444b937c58d0809536, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrakeDisksBlack
+    second: {fileID: 2100000, guid: 6f23982221152e941a5b511014c5147d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brakes
+    second: {fileID: 2100000, guid: b70c037d6aa43424ab9a8e074201067c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CarboneFibre
+    second: {fileID: 2100000, guid: f718a7767e0c0384da3ab4c6eb99013d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chrome
+    second: {fileID: 2100000, guid: 2b769152bdb45a24fa3885b442bbc15b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChromeExhaustSystem
+    second: {fileID: 2100000, guid: 6b60f8df7bef07a4fa5c8bfc06057d0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Highlight(Back)
+    second: {fileID: 2100000, guid: d69c0f88550570d429079426b4736f91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HighlightGlass(Front)
+    second: {fileID: 2100000, guid: f2244b2c36ee05842bc1554d09b84857, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HightlightLightsource(Front)
+    second: {fileID: 2100000, guid: c6e32e9b4c9840d4ea7b741b060f862d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightCurve
+    second: {fileID: 2100000, guid: 592e275b9bcd00d4eb4f0173e7f2ecee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightSource
+    second: {fileID: 2100000, guid: 21e4c12f0a0e4cd45838a8660cdeadc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: c59d0e802759b80459381988c5dde993, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PeugeotLogoChrome
+    second: {fileID: 2100000, guid: f008b218b9a01314ea398060187a50b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RimChrome
+    second: {fileID: 2100000, guid: beb46dee0282a4443be35d8c09d64234, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RimGlossyBlack
+    second: {fileID: 2100000, guid: fdb1acdf073e5bc4c81216dfc1a843ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofGlass
+    second: {fileID: 2100000, guid: d72b2d789aff6e64b90ce1a8fe0c741c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scene
+    second: {fileID: 2100000, guid: 88f3df6a096578a43afbf1baf4a4f5b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tyre
+    second: {fileID: 2100000, guid: e38e378a5d1030843be8c2d281115db1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WheelGlass
+    second: {fileID: 2100000, guid: 2491824d304830b4eab9f6c7ad857470, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: asphalt_texture407
+    second: {fileID: 2100000, guid: a507cd998214f974d9296484c7557af1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

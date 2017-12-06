@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: 789ca3d6b2ae9b34f934534bab880052
+timeCreated: 1510921798
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Area
+    100002: asphalt_texture407
+    100004: BackAirOutput
+    100006: Body
+    100008: BottomSpoiler
+    100010: BrakeDisks
+    100012: BrakeDisks_001
+    100014: BrakeDisks_002
+    100016: BrakeDisks_003
+    100018: Brakes
+    100020: Brakes_001
+    100022: Brakes_002
+    100024: Brakes_003
+    100026: Camera
+    100028: CarboneBack
+    100030: ChromeCadre
+    100032: ExhaustSystem
+    100034: FrontAirInput
+    100036: Highlight_Back_
+    100038: HighlightGlass_Back_
+    100040: HighlightGlass_Front__001
+    100042: HighlightInterior_Front_
+    100044: HighlightLightsource_Front_
+    100046: Lamp
+    100048: Lamp_001
+    100050: LightSource1
+    100052: LightSource1_001
+    100054: LightSource2
+    100056: LightSource4
+    100058: LightSource5
+    100060: MirrorsCarbon
+    100062: //RootNode
+    100064: Rim
+    100066: Rim_001
+    100068: Rim_002
+    100070: Rim_003
+    100072: Roof
+    100074: Scene
+    100076: Tyre
+    100078: Tyre_001
+    100080: Tyre_002
+    100082: Tyre_003
+    100084: WheelCentre
+    100086: WheelCentre_001
+    100088: WheelCentre_002
+    100090: WheelCentre_003
+    400000: Area
+    400002: asphalt_texture407
+    400004: BackAirOutput
+    400006: Body
+    400008: BottomSpoiler
+    400010: BrakeDisks
+    400012: BrakeDisks_001
+    400014: BrakeDisks_002
+    400016: BrakeDisks_003
+    400018: Brakes
+    400020: Brakes_001
+    400022: Brakes_002
+    400024: Brakes_003
+    400026: Camera
+    400028: CarboneBack
+    400030: ChromeCadre
+    400032: ExhaustSystem
+    400034: FrontAirInput
+    400036: Highlight_Back_
+    400038: HighlightGlass_Back_
+    400040: HighlightGlass_Front__001
+    400042: HighlightInterior_Front_
+    400044: HighlightLightsource_Front_
+    400046: Lamp
+    400048: Lamp_001
+    400050: LightSource1
+    400052: LightSource1_001
+    400054: LightSource2
+    400056: LightSource4
+    400058: LightSource5
+    400060: MirrorsCarbon
+    400062: //RootNode
+    400064: Rim
+    400066: Rim_001
+    400068: Rim_002
+    400070: Rim_003
+    400072: Roof
+    400074: Scene
+    400076: Tyre
+    400078: Tyre_001
+    400080: Tyre_002
+    400082: Tyre_003
+    400084: WheelCentre
+    400086: WheelCentre_001
+    400088: WheelCentre_002
+    400090: WheelCentre_003
+    2000000: Camera
+    2300000: asphalt_texture407
+    2300002: BackAirOutput
+    2300004: Body
+    2300006: BottomSpoiler
+    2300008: BrakeDisks
+    2300010: BrakeDisks_001
+    2300012: BrakeDisks_002
+    2300014: BrakeDisks_003
+    2300016: Brakes
+    2300018: Brakes_001
+    2300020: Brakes_002
+    2300022: Brakes_003
+    2300024: CarboneBack
+    2300026: ChromeCadre
+    2300028: ExhaustSystem
+    2300030: FrontAirInput
+    2300032: Highlight_Back_
+    2300034: HighlightGlass_Back_
+    2300036: HighlightGlass_Front__001
+    2300038: HighlightInterior_Front_
+    2300040: HighlightLightsource_Front_
+    2300042: LightSource1
+    2300044: LightSource1_001
+    2300046: LightSource2
+    2300048: LightSource4
+    2300050: LightSource5
+    2300052: MirrorsCarbon
+    2300054: Rim
+    2300056: Rim_001
+    2300058: Rim_002
+    2300060: Rim_003
+    2300062: Roof
+    2300064: Scene
+    2300066: Tyre
+    2300068: Tyre_001
+    2300070: Tyre_002
+    2300072: Tyre_003
+    2300074: WheelCentre
+    2300076: WheelCentre_001
+    2300078: WheelCentre_002
+    2300080: WheelCentre_003
+    3300000: asphalt_texture407
+    3300002: BackAirOutput
+    3300004: Body
+    3300006: BottomSpoiler
+    3300008: BrakeDisks
+    3300010: BrakeDisks_001
+    3300012: BrakeDisks_002
+    3300014: BrakeDisks_003
+    3300016: Brakes
+    3300018: Brakes_001
+    3300020: Brakes_002
+    3300022: Brakes_003
+    3300024: CarboneBack
+    3300026: ChromeCadre
+    3300028: ExhaustSystem
+    3300030: FrontAirInput
+    3300032: Highlight_Back_
+    3300034: HighlightGlass_Back_
+    3300036: HighlightGlass_Front__001
+    3300038: HighlightInterior_Front_
+    3300040: HighlightLightsource_Front_
+    3300042: LightSource1
+    3300044: LightSource1_001
+    3300046: LightSource2
+    3300048: LightSource4
+    3300050: LightSource5
+    3300052: MirrorsCarbon
+    3300054: Rim
+    3300056: Rim_001
+    3300058: Rim_002
+    3300060: Rim_003
+    3300062: Roof
+    3300064: Scene
+    3300066: Tyre
+    3300068: Tyre_001
+    3300070: Tyre_002
+    3300072: Tyre_003
+    3300074: WheelCentre
+    3300076: WheelCentre_001
+    3300078: WheelCentre_002
+    3300080: WheelCentre_003
+    4300000: CarboneBack
+    4300002: ExhaustSystem
+    4300004: Body
+    4300006: asphalt_texture407
+    4300008: Roof
+    4300010: LightSource2
+    4300012: LightSource1
+    4300014: Tyre
+    4300016: Rim
+    4300018: FrontAirInput
+    4300020: ChromeCadre
+    4300022: BrakeDisks
+    4300024: WheelCentre
+    4300026: Brakes
+    4300028: LightSource4
+    4300030: BackAirOutput
+    4300032: Brakes_001
+    4300034: WheelCentre_001
+    4300036: BrakeDisks_001
+    4300038: Rim_001
+    4300040: Tyre_001
+    4300042: Tyre_002
+    4300044: Rim_002
+    4300046: BrakeDisks_002
+    4300048: WheelCentre_002
+    4300050: Brakes_002
+    4300052: Brakes_003
+    4300054: WheelCentre_003
+    4300056: BrakeDisks_003
+    4300058: Rim_003
+    4300060: Tyre_003
+    4300062: Scene
+    4300064: LightSource5
+    4300066: HighlightInterior_Front_
+    4300068: HighlightGlass_Back_
+    4300070: Highlight_Back_
+    4300072: HighlightGlass_Front__001
+    4300074: BottomSpoiler
+    4300076: HighlightLightsource_Front_
+    4300078: MirrorsCarbon
+    4300080: LightSource1_001
+    9500000: //RootNode
+    10800000: Area
+    10800002: Lamp
+    10800004: Lamp_001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: cbbca04038c0483459f7f38e3fea7770, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Black_
+    second: {fileID: 2100000, guid: 40d4ee226d5e79345a4b2a81a75ff5df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Gold_
+    second: {fileID: 2100000, guid: c6cdd8b557d975e4e9b52eebd95f5086, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BottomSpoiler
+    second: {fileID: 2100000, guid: 59ba3afe7e38f454ba81e347b06d0102, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrakeDisks
+    second: {fileID: 2100000, guid: c160ddfdcbcf3b444b937c58d0809536, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrakeDisksBlack
+    second: {fileID: 2100000, guid: 6f23982221152e941a5b511014c5147d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brakes
+    second: {fileID: 2100000, guid: b70c037d6aa43424ab9a8e074201067c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CarboneFibre
+    second: {fileID: 2100000, guid: f718a7767e0c0384da3ab4c6eb99013d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chrome
+    second: {fileID: 2100000, guid: 2b769152bdb45a24fa3885b442bbc15b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChromeExhaustSystem
+    second: {fileID: 2100000, guid: 6b60f8df7bef07a4fa5c8bfc06057d0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HighlightGlass_Front_
+    second: {fileID: 2100000, guid: 33bf58095e37aef40976b4a1e75b6bc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Highlight_Back_
+    second: {fileID: 2100000, guid: facdb85f86ecd8540bb4602dc1eacfda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HightlightLightsource_Front_
+    second: {fileID: 2100000, guid: 834d362a21d6fde459f1d9c4a796f755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightCurve
+    second: {fileID: 2100000, guid: 592e275b9bcd00d4eb4f0173e7f2ecee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightSource
+    second: {fileID: 2100000, guid: 21e4c12f0a0e4cd45838a8660cdeadc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: c59d0e802759b80459381988c5dde993, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RimChrome
+    second: {fileID: 2100000, guid: beb46dee0282a4443be35d8c09d64234, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RimGlossyBlack
+    second: {fileID: 2100000, guid: fdb1acdf073e5bc4c81216dfc1a843ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofGlass
+    second: {fileID: 2100000, guid: d72b2d789aff6e64b90ce1a8fe0c741c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scene
+    second: {fileID: 2100000, guid: 88f3df6a096578a43afbf1baf4a4f5b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tyre
+    second: {fileID: 2100000, guid: e38e378a5d1030843be8c2d281115db1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WheelGlass
+    second: {fileID: 2100000, guid: 2491824d304830b4eab9f6c7ad857470, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: asphalt_texture407
+    second: {fileID: 2100000, guid: a507cd998214f974d9296484c7557af1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
