@@ -112,6 +112,52 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &445800672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 445800674}
+  - component: {fileID: 445800673}
+  m_Layer: 0
+  m_Name: zombieSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &445800673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 445800672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35ba871ef22992e4fad648d0a4097d08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  needGenerate: 0
+  timeToInstantiateZombie: 0
+  maxTimetoInstatiateZombie: 0
+  minPositionXToInstatiate: 0
+  maxPositionXToInstatiate: 0
+  zombie: {fileID: 1144681687960224, guid: 919d37543a6d7b3459954747ac8409db, type: 2}
+--- !u!4 &445800674
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 445800672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.78245926, y: 12.431092, z: -19.723337}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &483880876
 GameObject:
   m_ObjectHideFlags: 0
@@ -202,7 +248,7 @@ GameObject:
   - component: {fileID: 756844801}
   - component: {fileID: 756844800}
   m_Layer: 0
-  m_Name: test
+  m_Name: roadSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -349,6 +395,10 @@ Prefab:
     - target: {fileID: 4939112224836258, guid: 513f0e291dabb1d4fadcc4ba9b947d37, type: 2}
       propertyPath: m_LocalScale.z
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117123337716744, guid: 513f0e291dabb1d4fadcc4ba9b947d37, type: 2}
+      propertyPath: m_TagString
+      value: car
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 513f0e291dabb1d4fadcc4ba9b947d37, type: 2}
