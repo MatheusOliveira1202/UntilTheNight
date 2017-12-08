@@ -10,7 +10,9 @@ public class CharacterClass : MonoBehaviour {
     public float _speedY;
     public float _width;
     public float _height;
-
+    public float speedAccelerometer;
+    //value -1 to left side, value 0 to center and value 1 to right side
+    public int positionInRoad;
     Vector2 firstPressPos;
     Vector2 secondPressPos;
     Vector2 currentSwipe;
@@ -18,8 +20,21 @@ public class CharacterClass : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-
+        speedAccelerometer = 10;
+        positionInRoad = 0;
     }
+
+    /*void AccelerometerFunction()
+    {
+        Vector3 dirAccelerometer = Vector3.zero;
+        dirAccelerometer.x = -Input.acceleration.y;
+        dirAccelerometer.z = Input.acceleration.x;
+        if (dirAccelerometer.sqrMagnitude > 1)
+            dirAccelerometer.Normalize();
+
+        dirAccelerometer *= Time.deltaTime;
+        transform.Translate(dirAccelerometer * speedAccelerometer);
+    }*/
 
     /*public void SwipeMobile()
     {
@@ -97,27 +112,36 @@ public class CharacterClass : MonoBehaviour {
             //swipe left
             if (currentSwipe.x < 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
             {
+                goToposition(new Vector3(transform.position.x - 10, transform.position.y, transform.position.z), positionInRoad, positionInRoad - 1);
                 Debug.Log("left swipe");
             }
             //swipe right
             if (currentSwipe.x > 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
             {
+                goToposition(new Vector3(transform.position.x + 10, transform.position.y, transform.position.z), positionInRoad, positionInRoad + 1);
                 Debug.Log("right swipe");
             }
         }
     }
 
-    void goRight()
-    {
 
+
+    void goToposition(Vector3 EndPosition, int actualPosition, int finalPosition)
+    {
+        if(this.transform.position != EndPosition)
+        {
+            while(/*actualPosition < finalPosition && */this.transform.position.x < EndPosition.x)
+            {
+                transform.position += new Vector3(0.0001f, 0, 0);
+            }
+            while (/*actualPosition > finalPosition && */this.transform.position.x > EndPosition.x)
+            {
+                transform.position -= new Vector3(0.0001f, 0, 0);
+            }
+        }
     }
 
-    void goLeft()
-    {
-
-    }
-
-    void OnCollisionEnter2D(Collision2D coll)
+    void OnCollisionEnter(Collision coll)
     {
         if (coll.gameObject.tag == "road")
         {
@@ -164,5 +188,6 @@ public class CharacterClass : MonoBehaviour {
 	void Update () {
         SwipePC();
         testMovement();
+        //AccelerometerFunction();
 	}
 }
