@@ -11,7 +11,6 @@ public class ZombieSpawner : MonoBehaviour {
     public float maxPositionXToInstatiate;
     public GameObject zombie;
 
-    // Use this for initialization
     void Start()
     {
         needGenerate = false;
@@ -43,7 +42,6 @@ public class ZombieSpawner : MonoBehaviour {
         }
     }
 	
-	// Update is called once per frame
 	void Update () {
         InstantiateZombies();
         Timer();

@@ -15,7 +15,6 @@ public class ZombieClass : MonoBehaviour {
     void Movimentation()
     {
         transform.position -= new Vector3(0, 0, speedZ);
-        //GetComponent<Rigidbody>().AddForce(new Vector3(0, 0, -50));
     }
 
     void OnCollisionEnter(Collision coll)
@@ -25,9 +24,18 @@ public class ZombieClass : MonoBehaviour {
             Destroy(gameObject);
         }
     }
-	
+
+    void DestroyManager()
+    {
+        if (this.transform.position.z < -100)
+        {
+            Destroy(gameObject);
+        }
+    }
+
 	// Update is called once per frame
 	void Update () {
         Movimentation();
+        DestroyManager();
 	}
 }

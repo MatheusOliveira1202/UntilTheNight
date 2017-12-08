@@ -20,6 +20,7 @@ public class CharacterClass : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        _speedX = 50;
         speedAccelerometer = 10;
         positionInRoad = 0;
     }
@@ -112,14 +113,20 @@ public class CharacterClass : MonoBehaviour {
             //swipe left
             if (currentSwipe.x < 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
             {
-                goToposition(new Vector3(transform.position.x - 10, transform.position.y, transform.position.z), positionInRoad, positionInRoad - 1);
-                Debug.Log("left swipe");
+                if(transform.position.x >= -10 && transform.position.x <= 10)
+                {
+                    goToposition(new Vector3(transform.position.x - 10, transform.position.y, transform.position.z), positionInRoad, positionInRoad - 1);
+                    Debug.Log("left swipe");
+                }
             }
             //swipe right
             if (currentSwipe.x > 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
             {
-                goToposition(new Vector3(transform.position.x + 10, transform.position.y, transform.position.z), positionInRoad, positionInRoad + 1);
-                Debug.Log("right swipe");
+                if(transform.position.x >= -10 && transform.position.x <= 10)
+                {
+                    goToposition(new Vector3(transform.position.x + 10, transform.position.y, transform.position.z), positionInRoad, positionInRoad + 1);
+                    Debug.Log("right swipe");
+                }
             }
         }
     }
@@ -149,45 +156,37 @@ public class CharacterClass : MonoBehaviour {
         }
     }
 
-    string detectFloor()
-    {
-        return "";
-    }
-
-    void collisionDetection()
-    {
-
-    }
-
-    void changeSpeed()
-    {
-
-    }
-
     void testMovement()
     {
         if (Input.GetKey("right"))
         {
-            GetComponent<Rigidbody>().AddForce(new Vector3(50,0,0));
+            GetComponent<Rigidbody>().AddForce(new Vector3(_speedX,0,0));
         }
         if (Input.GetKey("left"))
         {
-            GetComponent<Rigidbody>().AddForce(new Vector3(-50, 0, 0));
+            GetComponent<Rigidbody>().AddForce(new Vector3(-_speedX, 0, 0));
         }
         if (Input.GetKey("up"))
         {
-            GetComponent<Rigidbody>().AddForce(new Vector3(0, 0, 50));
+            GetComponent<Rigidbody>().AddForce(new Vector3(0, 0, _speedX));
         }
         if (Input.GetKey("down"))
         {
-            GetComponent<Rigidbody>().AddForce(new Vector3(0, 0, -50));
+            GetComponent<Rigidbody>().AddForce(new Vector3(0, 0, -_speedX));
         }
     }
 
-	// Update is called once per frame
+    void DestroyManager()
+    {
+        if (this.transform.position.y < -50)
+        {
+            Destroy(gameObject);
+        }
+    }
+
 	void Update () {
         SwipePC();
         testMovement();
-        //AccelerometerFunction();
+        DestroyManager();
 	}
 }

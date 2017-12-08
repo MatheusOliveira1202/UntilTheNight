@@ -219,6 +219,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Managers\CarSpawner.cs" />
     <Compile Include="Assets\Scripts\Managers\FloorSpawner.cs" />
     <Compile Include="Assets\Scripts\Managers\ZombieSpawner.cs" />
     <Compile Include="Assets\Scripts\MVC\Controller\CharacterClass.cs" />
